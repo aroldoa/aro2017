@@ -45,6 +45,16 @@
 				'menu_id'        => 'primary-menu',
 			) );
 		?>
+
+		<div id="social">
+			<ul>
+				<li class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/inc/img/behance.svg" width="25px"/></li>
+				<li class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/inc/img/dribble.svg" width="25px"/></li>
+				<li class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/inc/img/instagram.svg" width="25px"/></li>
+				<li class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/inc/img/linkedin.svg" width="25px"/></li>
+			</ul>
+		</div>
+
 	</div>
 	<header id="masthead" class="site-header" role="banner">
 		<div id="logo">

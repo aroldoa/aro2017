@@ -18,6 +18,17 @@ $( document ).ready(function() {
           TweenMax.to("#menuslide",.6,{width:"450px"});
           TweenMax.to("#primary-menu",.6,{opacity:1,delay:.1});
           TweenMax.to("#navi-close",.5,{opacity:1, top:"12%",delay:.2});
+          TweenMax.staggerFrom(".menu-item", 1.5, {left:"25px", opacity:0, delay:0.5, ease:Elastic.easeOut}, 0.2);
+          $(".menu-item").hover(
+
+            function () {
+                 TweenMax.to(this,.5,{left:"30px"});
+              },
+
+              function () {
+                 TweenMax.to(this,.5,{left:"0px"});
+              });
+         TweenMax.staggerFrom(".social-icon", 1.5, {top:"25px", opacity:0, delay:1, ease:Elastic.easeOut}, 0.2);
       })
 
       $("#navi-close").click(function() {
@@ -37,21 +48,25 @@ $( document ).ready(function() {
           TweenMax.to("#portfolioTitleTwo",1,{opacity:1,left:"500px",delay:2});
         }
 
-
-        if (top.location.pathname === '/aro/')
+        if (top.location.pathname === '/aro2017/')
 
           {
                 homeload();
           }
 
 
-        if (top.location.pathname === '/aro/portfolio/')
+        if (top.location.pathname === '/aro2017/portfolio/')
 
           {
                 portload();
+
+                $("#portfolioItem").mouseover(function(){
+
+
+                })
           }
 
-        if (document.location.pathname.indexOf("/aro/works/") == 0)
+        if (document.location.pathname.indexOf("/aro2017/works/") == 0)
 
         {
 

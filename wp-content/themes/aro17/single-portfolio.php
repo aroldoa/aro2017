@@ -19,7 +19,7 @@ get_header(); ?>
 					<?php
 					while ( have_posts() ) : the_post();	?>
 
-						<h1 data-aos='fade-right' data-aos-duration='2000' data-aos-delay='2500'>
+						<h1 data-aos='fade-right' data-aos-duration='2000' data-aos-delay='2000'>
 							<?php the_title(); ?>
 						</h1>
 
@@ -35,7 +35,7 @@ get_header(); ?>
 
 						<div class="row">
 							<div class="col-md-8 col-md-offset-4">
-								<div class="pull-right portfolio-content"  data-aos-once="true" data-aos-duration="800" data-aos="fade-up" data-aos-delay="1900">
+								<div class="pull-right portfolio-content"  data-aos-once="true" data-aos-duration="800" data-aos="fade-up" data-aos-delay="600">
 									<?php the_content();?>
 								</div>
 							</div>
@@ -89,13 +89,13 @@ get_header(); ?>
 
 					<div class="row">
 						<div class="col-md-6">
-							<div data-aos="fade-up"  data-aos-once="true" data-aos-delay="900" data-aos-duration="1200">
+							<div data-aos="fade-up"  data-aos-once="true" data-aos-delay="1000" data-aos-duration="1200">
 								<img class="img-reponsive" src="<?php the_field('seven-image'); ?>" alt="" />
 							</div>
 						</div>
 
 						<div class="col-md-6">
-							<div data-aos="fade-up"  data-aos-once="true" data-aos-delay="600" data-aos-duration="1200">
+							<div data-aos="fade-up"  data-aos-once="true" data-aos-delay="800" data-aos-duration="1200">
 								<img class="img-reponsive" src="<?php the_field('eight-image'); ?>" alt="" />
 							</div>
 						</div>

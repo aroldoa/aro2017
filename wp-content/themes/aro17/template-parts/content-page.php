@@ -9,11 +9,13 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article>
 
-	<div class="entry-content">
-		<?php
-			the_content();
-		?>
+	<div class="container">
+		<div class="row">
+				<?php
+					the_content();
+				?>
+		</div>
 	</div><!-- .entry-content -->
 </article><!-- #post-<?php the_ID(); ?> -->

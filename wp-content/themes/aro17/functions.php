@@ -127,6 +127,7 @@ function aro17_scripts() {
 	wp_enqueue_style('aro17-bootcss', get_template_directory_uri() . '/inc/css/bootstrap.min.css');
 	wp_enqueue_style( 'aro17-style', get_stylesheet_uri() );
 	wp_enqueue_style('aro17-aos', get_template_directory_uri() . '/inc/css/aos.css');
+	wp_enqueue_style('aro17-google','https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700');
 	wp_enqueue_script('aro17-jquery', get_template_directory_uri() . '/js/jquery.js');
 	wp_enqueue_script('aro17-bootjs', get_template_directory_uri() . '/js/bootstrap.min.js');
 	wp_enqueue_script('aro17-gsap','https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js');
