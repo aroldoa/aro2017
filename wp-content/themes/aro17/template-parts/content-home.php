@@ -8,7 +8,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article>
 	<div id="intro">
 		<div class="container">
 			<div class="row">

@@ -27,7 +27,7 @@ get_header(); ?>
 						<div class="row">
 							<div class="col-md-10 col-md-offset-1">
 								<div class="text-center" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="600" >
-								<?php the_post_thumbnail('full', array('class' => 'img-responsive center-block'));?>
+								<img class="img-reponsive" src="<?php the_field('main-image'); ?>" alt="" />
 								</div>
 							</div>
 						</div>
@@ -48,6 +48,8 @@ get_header(); ?>
 							</div>
 						</div>
 					</div>
+
+					<div class="space"></div>
 
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1">
@@ -104,12 +106,28 @@ get_header(); ?>
 					<div class="space"></div>
 
 					<div class="row">
-						<div class="col-md-9 col-md-offset-3">
-							<div class="text-center" data-aos="fade-left"  data-aos-once="true" data-aos-delay="800" data-aos-duration="1200">
+						<div class="col-md-6">
+							<div class="text-center" data-aos="fade-right"  data-aos-once="true" data-aos-delay="800" data-aos-duration="1200">
 								<img class="img-reponsive center-block" src="<?php the_field('nine-image'); ?>" alt="" />
 							</div>
 						</div>
+
+						<div class="col-md-6">
+							<div class="text-center" data-aos="fade-left"  data-aos-once="true" data-aos-delay="800" data-aos-duration="1200">
+								<img class="img-reponsive center-block" src="<?php the_field('ten-image'); ?>" alt="" />
+							</div>
+						</div>
 					</div>
+
+						<div class="space"></div>
+
+						<div class="row">
+							<div class="col-md-9 col-md-offset-3">
+								<div class="text-center" data-aos="fade-left"  data-aos-once="true" data-aos-delay="800" data-aos-duration="1200">
+									<img class="img-reponsive center-block" src="<?php the_field('eleven-image'); ?>" alt="" />
+								</div>
+							</div>
+						</div>
 
 
 						<?php

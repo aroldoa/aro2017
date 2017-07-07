@@ -27,6 +27,7 @@ body.removeOverflow{
 }
 .site-main{
 	height: 100%;
+	width:100%;
 }
 #slide{
 	position: absolute;
@@ -90,9 +91,9 @@ body.removeOverflow{
 
 #intro{
 	position: absolute;
-	top:40%;
+	top:80%;
 	width: 100%;
-	height: 800px;
+
 }
 
 #intro h1{

@@ -48,14 +48,14 @@ $( document ).ready(function() {
           TweenMax.to("#portfolioTitleTwo",1,{opacity:1,left:"500px",delay:2});
         }
 
-        if (top.location.pathname === '/aro2017/')
+        if (top.location.pathname === '/aro/')
 
           {
                 homeload();
           }
 
 
-        if (top.location.pathname === '/aro2017/portfolio/')
+        if (top.location.pathname === '/aro/portfolio/')
 
           {
                 portload();
@@ -66,7 +66,7 @@ $( document ).ready(function() {
                 })
           }
 
-        if (document.location.pathname.indexOf("/aro2017/works/") == 0)
+        if (document.location.pathname.indexOf("/aro/works/") == 0)
 
         {
 
