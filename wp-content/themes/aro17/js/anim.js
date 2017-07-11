@@ -94,13 +94,13 @@ $( document ).ready(function() {
 
 
           $("#NextPortfolioItem").mouseenter(function(){
-              TweenMax.to(".blackhover",.7,{opacity:.4});
-              TweenMax.to(".next-link",1,{left:"18%"});
+              TweenMax.to(".blackhover",.5,{opacity:.4});
+              TweenMax.to(".next-link",.5,{left:"18%"});
           })
 
           $("#NextPortfolioItem").mouseleave(function(){
-              TweenMax.to(".blackhover",.7,{opacity:.7});
-              TweenMax.to(".next-link",1,{left:"15%"});
+              TweenMax.to(".blackhover",.5,{opacity:.7});
+              TweenMax.to(".next-link",.5,{left:"15%"});
           })
 
         }

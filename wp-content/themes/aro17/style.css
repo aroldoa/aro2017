@@ -91,7 +91,7 @@ body.removeOverflow{
 
 #intro{
 	position: absolute;
-	top:80%;
+	top:40%;
 	width: 100%;
 
 }
@@ -309,9 +309,10 @@ width:100%;
 	opacity: 0;
 }
 .next-link span{
-	font-size:1.1em;
-	color:#818181;
+	font-size:1.2em;
+	color:#fff;
 	font-weight: 300;
+	letter-spacing: 1px;
 }
 .next-arrow{
 	margin-left: 10px;

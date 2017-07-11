@@ -8,7 +8,7 @@
  */
 ?>
 
-<article>
+
 	<div id="intro">
 		<div class="container">
 			<div class="row">
@@ -24,4 +24,4 @@
 		</div>
 		</div>
 	</div><!-- .entry-content -->
-</article><!-- #post-<?php the_ID(); ?> -->
+</div>

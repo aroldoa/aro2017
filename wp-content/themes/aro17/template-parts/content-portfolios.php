@@ -9,10 +9,5 @@
 ?>
 
 <div class="promo">
-
-
-
 <?php echo do_shortcode('[rev_slider alias="portfolio"]'); ?>
-
-
 </div><!--.promo -->
